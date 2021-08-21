@@ -1,7 +1,7 @@
 <template>
   <v-app style="overflow: hidden !important">
-    <Toolbar />
-    <v-main>
+    <Toolbar class="hidden-sm-and-up" />
+    <v-main class="hidden-sm-and-up">
       <!-- All the components in one -->
       <Landing />
       <ArrowDown />
@@ -12,6 +12,9 @@
       <whysyrgo></whysyrgo>
       <footbar></footbar>
     </v-main>
+    <v-card align="center" class="hidden-sm-and-down">
+      <h2>Please Check this out on the mobile version!</h2>
+    </v-card>
   </v-app>
 </template>
 
@@ -29,7 +32,7 @@ import Footbar from "./components/footbar.vue";
 
 export default {
   name: "App",
-// the components to be used
+  // the components to be used
   components: {
     Toolbar,
     Landing,
