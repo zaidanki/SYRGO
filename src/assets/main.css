@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Lato";
+    src: url(./Assets/Lato/Lato-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato-b";
+    src: url(./Assets/Lato/Lato-Bold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato-i";
+    src: url(./Assets/Lato/Lato-Italic.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Lato-l";
+    src: url(./Assets/Lato/Lato-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "ar";
+    src: url(./Assets/Lato/GE-Dinar-One-Medium.otf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "monstrat-r";
+    src: url(./monstrat//Montserrat-ExtraBold.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "monstrat-b";
+    src: url(./monstrat//Montserrat-Bold.ttf);
+    font-display: swap;
+}
+.ar {
+    font-family: ar !important;
+}
+
+h1 {
+    font-family: monstrat-r !important;
+    font-style: normal !important;
+    font-size: 7.729468599033816vw !important;
+    line-height: 9.420289855072465vw !important;
+    font-weight: 800 !important;
+    color: #2C1C09 !important;
+}
+
+p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.898550724637681vw;
+    line-height: 4.3478260869565215vw;
+    letter-spacing: 0.026231884057971016vw !important;
+    color: #2C1C09;
+}
+
+h3 {
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.830917874396135vw;
+    line-height: 5.797101449275362vw;
+    color: black !important;
+}
+
+h4 {
+    font-family: Lato-b;
+    font-style: normal;
+    font-size: 3.6231884057971016vw;
+    line-height: 4.3478260869565215vw;
+
+}
+
+h2 {
+    font-family: monstrat-b;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.763285024154589vw;
+    line-height: 8.212560386473431vw;
+    color: #2C1C09 ;
+}
